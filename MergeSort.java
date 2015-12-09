@@ -1,6 +1,8 @@
 import java.util.*;
 import java.io.*;
 
+//Merge sort Divide and conqure algorithm..
+
 class MergeSort
 {
 	static int []arr;
@@ -34,7 +36,7 @@ class MergeSort
 
 	static void merge(int start,int mid,int end)
 	{
-		
+
 		int lsize=mid-start+1;
 		int rsize=end-mid;
 		int []larr=new int[lsize];
